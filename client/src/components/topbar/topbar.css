@@ -1,0 +1,89 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: bisque;
+  cursor: pointer;
+}
+.topbarCenter {
+  flex: 5;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  border: none;
+  width: 70%;
+  background-color: lightgray;
+}
+.searchInput:focus {
+  outline: none;
+}
+
+.search-icon {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: gray;
+}
+
+.topbarLinks {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  color: black;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/* .topbarImg {
+  width: 100%;
+} */
